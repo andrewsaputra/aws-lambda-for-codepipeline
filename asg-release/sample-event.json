@@ -1,0 +1,39 @@
+{
+    "CodePipeline.job": {
+        "AccountId": "199944304157",
+        "Data": {
+            "ActionConfiguration": {
+                "Configuration": {
+                    "FunctionName": "go-rest-sample-release"
+                }
+            },
+            "ActionTypeId": null,
+            "ArtifactCredentials": {
+                "AccessKeyId": "ASIAS5DM3.....",
+                "SecretAccessKey": "v9KRo366r9mNP.....",
+                "SessionToken": "IQoJb3JpZ2luX2VjE....."
+            },
+            "ContinuationToken": null,
+            "EncryptionKey": {
+                "Id": "arn:aws:kms:ap-southeast-1:199944304157:key/dfeca5b8-a63d-4ea9-9cd3-3e8b8d84498b",
+                "Type": "KMS"
+            },
+            "InputArtifacts": [
+                {
+                    "Location": {
+                        "S3Location": {
+                            "BucketName": "codepipeline-artifacts-b51cb22b9067cb07",
+                            "ObjectKey": "go-rest-sample-relea/BuildOutpu/OwOkuGF"
+                        },
+                        "Type": "S3"
+                    },
+                    "Name": "BuildOutputArtifact",
+                    "Revision": null
+                }
+            ],
+            "OutputArtifacts": [],
+            "PipelineContext": null
+        },
+        "Id": "6ee61498-be80-4e7a-b38f-809298f62971"
+    }
+}
